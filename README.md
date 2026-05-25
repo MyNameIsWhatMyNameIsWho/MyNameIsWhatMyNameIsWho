@@ -38,6 +38,7 @@ I'm a **Technical Designer / Gameplay Programmer** based in Prague with industry
 **Languages**
 
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
@@ -49,6 +50,7 @@ I'm a **Technical Designer / Gameplay Programmer** based in Prague with industry
 ![AI Behaviors](https://img.shields.io/badge/AI_Behaviors-DC2626?style=flat-square)
 ![Data-Driven Systems](https://img.shields.io/badge/Data--Driven_Systems-0891B2?style=flat-square)
 ![VR / XR](https://img.shields.io/badge/VR_%2F_XR-000000?style=flat-square&logo=meta&logoColor=white)
+![Shaders](https://img.shields.io/badge/ShaderLab_%2F_HLSL-5C2D91?style=flat-square)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
@@ -80,6 +82,31 @@ Inherited and refactored a complex Unity codebase from a prior Master's thesis, 
 A tile-based game engine built in Java where levels, enemies, timers, and inventory are fully defined in **external JSON config files** — no recompile needed to change game content. Demonstrates data-driven architecture: the engine reads structured data at runtime and constructs game state from it, separating content authoring from code.
 
 **Engineering highlights:** OOP entity system in Java; JSON-driven runtime configuration; clear separation of game logic from content data.
+
+---
+
+### [Snake on MZ_APO Microcontroller](https://github.com/MyNameIsWhatMyNameIsWho/Snake_MZ_APO)
+> C · Hardware · Linux · Makefile
+
+Snake built in **pure C** for the MZ_APO microcontroller board — rendered directly to an LCD display (480×320px), controlled via physical hardware knobs, with an LED strip counting down to the next apple spawn. Supports single and two-player modes with configurable difficulty.
+
+The codebase is split into focused modules: `gameplay_utils`, `pixel_utils`, `draw_pictures`, `print_words`, `serialize_lock` — each with its own `.c/.h` pair. Built and deployed with a Makefile targeting a Linux/Debian environment over the board's network IP.
+
+**Engineering highlights:** low-level hardware interfacing; pixel-level LCD rendering; modular C architecture; Makefile build pipeline; collision detection and game loop in C.
+
+---
+
+### [Tiger Escape VR](https://github.com/MyNameIsWhatMyNameIsWho/Tiger_Escape_VR_Game) — VR Course Project *(CTU VAR 2024)*
+> Unity · C# · VR
+
+A VR game built as part of the Virtual and Augmented Reality course at CTU. C# accounts for 72% of the codebase, with custom shaders rounding out the rest.
+
+---
+
+### [Platform Game](https://github.com/MyNameIsWhatMyNameIsWho/platform_game)
+> Unity · ShaderLab · HLSL · C#
+
+A Unity platformer where the majority of the work went into **custom shaders** — ShaderLab and HLSL make up ~80% of the codebase. Demonstrates graphics programming beyond standard engine defaults.
 
 ---
 
