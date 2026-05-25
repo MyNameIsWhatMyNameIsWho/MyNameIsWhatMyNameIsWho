@@ -1,6 +1,6 @@
 <div align="center">
 
-# Ekaterina Chukina
+# Ekaterina Ch.
 
 ### Technical Designer · Gameplay Programmer
 
