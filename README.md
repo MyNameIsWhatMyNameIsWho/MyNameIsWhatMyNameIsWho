@@ -96,7 +96,7 @@ Classical chess implementation extended with a custom **"new figures" game mode*
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=MyNameIsWhatMyNameIsWho" width="0" height="0" />
+![Profile Views](https://komarev.com/ghpvc/?username=MyNameIsWhatMyNameIsWho&style=for-the-badge&color=6366f1&label=PROFILE+VIEWS)
 
 [![Total Contributions](https://streak-stats.demolab.com?user=MyNameIsWhatMyNameIsWho&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D&hide_current_streak=true&hide_longest_streak=true)](https://github.com/MyNameIsWhatMyNameIsWho)
 
