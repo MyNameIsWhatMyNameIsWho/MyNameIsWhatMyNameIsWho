@@ -17,13 +17,13 @@
 
 ## About Me
 
-I'm a **Technical Designer / Gameplay Programmer** based in Prague with industry experience at **Bohemia Interactive** and **Strand Forge**. I sit at the intersection of design and engineering — I prototype gameplay ideas fast, script them cleanly, and iterate until they *feel right*.
+I'm a **Technical Designer / Gameplay Programmer** based in Prague with industry experience at **Bohemia Interactive** and **Strand Forge**. I write production C# daily, think in systems, and care about code that's clean enough for the next person to build on.
 
-- Shipped gameplay content across **4 released scenarios** at Bohemia Interactive  
-- Designed and implemented **enemy AI archetypes**, modular weapon systems, and data-driven interaction frameworks in Unity  
-- Built a **VR application** for Meta Quest 3 as my bachelor's thesis — tested with real users, iterated on feedback  
-- Developed large-scale **Unreal Engine simulation environments** for robotics research at CTU  
-- Currently crafting a **narrative Godot game** (solo) with state-based storytelling and multiple endings  
+- Shipped gameplay features across **4 released scenarios** at Bohemia Interactive — production C# in a professional sprint workflow  
+- Designed and implemented **enemy AI state machines**, modular weapon systems, and plug-and-play interaction modules reused across multiple projects  
+- Built and deployed a **VR application to Meta Quest 3** (Android platform) — extended legacy codebase, added two original mini-games, tested with real users  
+- Developed a **data-driven quiz system** that cut production time from ~1 week to 2 days — localization keys, structured authoring pipeline  
+- Implemented large-scale **3D simulation environments in Unreal Engine** for robotics research; performance work in C++/Blueprints  
 
 ---
 
@@ -66,30 +66,34 @@ I'm a **Technical Designer / Gameplay Programmer** based in Prague with industry
 ## Featured Projects
 
 ### [VR App for Lying Patients](https://github.com/MyNameIsWhatMyNameIsWho/VR-App-For-Lying-Patients-BP) — Bachelor Thesis
-> Unity · C# · Meta Quest 3
+> Unity · C# · Meta Quest 2 & 3 · Android Platform
 
-Extended and refactored a VR rehabilitation application; built **two original mini-games** with audio-guided tutorials. Implemented accessibility-focused interactions and iterated based on real-user testing sessions.
+Inherited and refactored a complex Unity codebase from a prior Master's thesis, then extended it with two original VR mini-games. Built audio tutorial systems for independent use by elderly patients with no prior tech experience. Deployed to **Meta Quest (Android)** and tested hands-on with real patients at a senior care facility — requirements were discovered through observation, not documents. Iterated based on direct user and caregiver feedback until the interactions were accessible and reliable.
+
+**Engineering highlights:** legacy code analysis and safe refactoring; XR Interaction Toolkit; mobile build pipeline for Android/Meta Quest; accessibility-first input design.
+
+---
+
+### [CTU Adventure](https://github.com/MyNameIsWhatMyNameIsWho/CTU_Adventure) — Java Game Engine
+> Java · OOP · JSON
+
+A tile-based game engine built in Java where levels, enemies, timers, and inventory are fully defined in **external JSON config files** — no recompile needed to change game content. Demonstrates data-driven architecture: the engine reads structured data at runtime and constructs game state from it, separating content authoring from code.
+
+**Engineering highlights:** OOP entity system in Java; JSON-driven runtime configuration; clear separation of game logic from content data.
 
 ---
 
 ### [Balcony](https://github.com/MyNameIsWhatMyNameIsWho) — Solo Narrative Game *(2026)*
 > Godot 4.1 · GDScript
 
-A short narrative game with **state-based narration and branching endings** driven by player choices. Features a data-driven vignette system for windows, choices, and memory fragments — built for fast content iteration and scope control.
-
----
-
-### [C# Unity Projects Portfolio](https://github.com/MyNameIsWhatMyNameIsWho/CSharp-Unity-Projects-Portfolio)
-> Unity · C#
-
-A collection of Unity prototypes showcasing core gameplay programming: click-to-move navigation with obstacle avoidance and a clicker game — foundational work that led to the systems-level thinking I use today.
+A short narrative game with **state-based narration and branching endings** driven by player choices. Features a data-driven vignette system for windows, choices, and memory fragments — designed for fast content iteration and scope control without touching core logic.
 
 ---
 
 ### [Chess + Custom Figures](https://github.com/MyNameIsWhatMyNameIsWho/chess-python-oop)
 > Python · OOP
 
-Classical chess implementation extended with a custom **"new figures" game mode** — my first deep dive into object-oriented design and extensible rule systems.
+Full chess implementation in Python extended with a **custom "new figures" game mode** — piece behaviour is defined by class inheritance, making new piece types addable without modifying existing move validation logic. Early but deliberate application of OOP extensibility principles.
 
 ---
 
