@@ -96,9 +96,9 @@ Classical chess implementation extended with a custom **"new figures" game mode*
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MyNameIsWhatMyNameIsWho&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
+[![GitHub Streak](https://streak-stats.demolab.com?user=MyNameIsWhatMyNameIsWho&theme=dark&hide_border=true&date_format=j%20M%5B%20Y%5D)](https://github.com/MyNameIsWhatMyNameIsWho)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MyNameIsWhatMyNameIsWho&layout=compact&theme=dark&hide_border=true&langs_count=6)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MyNameIsWhatMyNameIsWho&theme=github-compact&hide_border=true&area=true)](https://github.com/MyNameIsWhatMyNameIsWho)
 
 </div>
 
