@@ -103,13 +103,6 @@ A VR game built as part of the Virtual and Augmented Reality course at CTU. C# a
 
 ---
 
-### [Platform Game](https://github.com/MyNameIsWhatMyNameIsWho/platform_game)
-> Unity · ShaderLab · HLSL · C#
-
-A Unity platformer where the majority of the work went into **custom shaders** — ShaderLab and HLSL make up ~80% of the codebase. Demonstrates graphics programming beyond standard engine defaults.
-
----
-
 ### [Balcony](https://github.com/MyNameIsWhatMyNameIsWho/Balcony) — Solo Narrative Game *(2026)*
 > Godot 4.1 · GDScript · GDShader
 
