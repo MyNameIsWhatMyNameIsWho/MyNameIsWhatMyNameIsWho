@@ -9,6 +9,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ekaterina-chukina)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chukina.eka@gmail.com)
 [![Portfolio](https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=github&logoColor=white)](https://mynameiswhatmynameiswho.github.io/personal-portfolio-site/)
+[![CV](https://img.shields.io/badge/CV-Download-4B5563?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/MyNameIsWhatMyNameIsWho/MyNameIsWhatMyNameIsWho/raw/main/Ekaterina_Chukina_CV.pdf)
 
 </div>
 
