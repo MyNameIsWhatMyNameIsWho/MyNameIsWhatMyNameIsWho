@@ -139,7 +139,8 @@ Full chess implementation in Python extended with a **custom "new figures" game 
 ## Education
 
 - **B.Sc. Computer Science – Games and Computer Graphics** · Czech Technical University in Prague *(2022 – 2025)*  
-- **Erasmus+ Exchange · Game Development** · Metropolia University of Applied Sciences, Helsinki *(Autumn 2023)* · GPA 4.0
+- **Erasmus+ Exchange · Game Development** · Metropolia University of Applied Sciences, Helsinki *(Autumn 2023)* · GPA 4.0  
+- **Summer Course · Psychology and Social Connections** · University of Oxford, Lady Margaret Hall *(Jun – Jul 2025)* · Grade: A
 
 ---
 
