@@ -110,10 +110,10 @@ A Unity platformer where the majority of the work went into **custom shaders** �
 
 ---
 
-### [Balcony](https://github.com/MyNameIsWhatMyNameIsWho) — Solo Narrative Game *(2026)*
-> Godot 4.1 · GDScript
+### [Balcony](https://github.com/MyNameIsWhatMyNameIsWho/Balcony) — Solo Narrative Game *(2026)*
+> Godot 4.1 · GDScript · GDShader
 
-A short narrative game with **state-based narration and branching endings** driven by player choices. Features a data-driven vignette system for windows, choices, and memory fragments — designed for fast content iteration and scope control without touching core logic.
+A short narrative game about watching strangers through apartment windows. All story content lives in **JSON files** (`windows.json`, `endings.json`, `flat.json`, `intro.json`) loaded by a `ContentDB` singleton — no text in code. Session state (fragments, avoidance count) drives one of **3 endings** via `GameState`. Separate systems for dialogue (`dialogue_manager`), camera transitions, window hover/selection, and a custom rain shader. Built solo from concept through implementation.
 
 ---
 
